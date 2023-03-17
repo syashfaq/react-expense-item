@@ -1,14 +1,19 @@
+import ExpenseItem from './Components/ExpenseItem'
 
-import './App.css';
 
 function App() {
+  let expenseDate = new Date(2021,3,25);
+  let expenseTitle = 'School Fee';
+  let exdpenseAmount = 300;
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Sayyed Ashfaq</h1>
-        
-        
-        
+        <ExpenseItem 
+        date= {expenseDate} 
+        title={expenseTitle} 
+        price={exdpenseAmount}/>
+     
       </header>
     </div>
   );
