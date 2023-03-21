@@ -10,7 +10,11 @@ html {
 
 body {
   margin: 0;
-  background-color: #0cbbe7;
+  background-color: #0ccbf1;
+}
+h1{
+  text-align: center;
+  color: white;
 }
 
 
