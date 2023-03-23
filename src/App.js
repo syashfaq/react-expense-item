@@ -1,5 +1,5 @@
 import React from "react";
-
+import NewExpense from "./Components/NewExpense/NewExpense";
 import Expenses from "./Components/Expenses/Expenses";
 
 
@@ -33,9 +33,9 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+        <NewExpense />
         <Expenses item={expenses} />
-      </header>
+      
     </div>
   );
 }
