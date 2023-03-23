@@ -1,6 +1,7 @@
-import ExpenseItem from "./Components/ExpenseItem";
-import Expenses from "./Components/Expenses";
-import Navbar from "./Components/Navbar";
+import React from "react";
+
+import Expenses from "./Components/Expenses/Expenses";
+
 
 function App() {
   let expenses = [
@@ -33,8 +34,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
-
         <Expenses item={expenses} />
       </header>
     </div>
