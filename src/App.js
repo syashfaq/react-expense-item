@@ -33,6 +33,7 @@ function App() {
 
   return (
     <div className="App">
+        <h1> Sayyed Ashfaque</h1>
         <NewExpense />
         <Expenses item={expenses} />
       
